@@ -36,6 +36,7 @@ Certifique-se de que você tem o [Node.js](https://nodejs.org/) instalado. No te
 
 ## Estrutura de Pastas Principal
 
-- `src/app/` — Contém a lógica, templates e componentes principais (Cabecalho, Rodape, Home, SobreHtml e SobreCss).
+- `src/app/` — Contém o componente raiz da aplicação (`App`), rotas e configurações.
+- `src/app/pages/` — Contém os componentes principais (Cabecalho, Rodape, Home, SobreHtml e SobreCss).
 - `src/styles/` — Arquivos CSS originais organizados de forma limpa.
 - `public/` — Recursos públicos do projeto, como imagens e ícones.

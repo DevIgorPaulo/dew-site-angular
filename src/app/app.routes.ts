@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './home/home';
-import { SobreHtmlComponent } from './sobre-html/sobre-html';
-import { SobreCssComponent } from './sobre-css/sobre-css';
+import { HomeComponent } from './pages/home/home';
+import { SobreHtmlComponent } from './pages/sobre-html/sobre-html';
+import { SobreCssComponent } from './pages/sobre-css/sobre-css';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
