@@ -6,10 +6,10 @@ Ele é voltado para a apresentação didática dos conceitos fundamentais de HTM
 
 # Autores
 
-Andrei Luciano Dietrch
-Brayan Godoy Schmitz
-Igor Francisco Antunes Paulo
-Kevin Licheski Antunes
+Andrei Luciano Dietrch;
+Brayan Godoy Schmitz;
+Igor Francisco Antunes Paulo;
+Kevin Licheski Antunes.
 
 ## Recursos do Projeto
 
