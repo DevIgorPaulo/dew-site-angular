@@ -1,12 +1,12 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { CabecalhoComponent } from './cabecalho/cabecalho';
+import { RodapeComponent } from './rodape/rodape';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, CabecalhoComponent, RodapeComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App {
-  protected readonly title = signal('dew-site-angular');
-}
+export class App { }

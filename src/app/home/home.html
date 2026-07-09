@@ -1,0 +1,66 @@
+<main id="main-content" tabindex="-1">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="hero-eyebrow">Aprenda do zero</p>
+        <h1 id="hero-title" tabindex="-1">
+          Construa a<br />
+          <em>Web</em> com<br />
+          confiança.
+        </h1>
+        <p class="hero-desc">
+          HTML e CSS são os pilares de tudo que você vê na internet.
+          Aqui você aprende os dois do jeito certo — com clareza, exemplos práticos e sem enrolação.
+        </p>
+        <div class="hero-cta">
+          <a routerLink="/sobre-html" class="btn btn-primary">Começar com HTML</a>
+          <a routerLink="/sobre-css" class="btn btn-ghost">Explorar CSS</a>
+        </div>
+      </div>
+
+      <div class="hero-code">
+        <img src="./images/estrutura-html.png" alt="Diagrama de estrutura HTML" class="hero-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CARDS ===================== -->
+  <section class="cards-section" aria-labelledby="cards-title">
+    <div class="container">
+      <h2 id="cards-title" class="section-title">Por onde começar?</h2>
+      <div class="cards-grid">
+
+        <article class="card card-html" role="article">
+          <header class="card-header">
+            <span class="card-icon" aria-hidden="true">&#60;/&#62;</span>
+            <span class="card-badge">Estrutura</span>
+          </header>
+          <h3 class="card-title">HTML</h3>
+          <p class="card-desc">
+            HyperText Markup Language é a linguagem de marcação que define o esqueleto de toda página web.
+            Tags, atributos, semântica — é aqui que tudo começa.
+          </p>
+          <footer class="card-footer">
+            <a routerLink="/sobre-html" class="btn btn-primary btn-sm">Aprender HTML →</a>
+          </footer>
+        </article>
+
+        <article class="card card-css" role="article">
+          <header class="card-header">
+            <span class="card-icon" aria-hidden="true">&#35;</span>
+            <span class="card-badge">Estilo</span>
+          </header>
+          <h3 class="card-title">CSS</h3>
+          <p class="card-desc">
+            Cascading Style Sheets cuida de tudo que é visual: cores, fontes, layout, animações.
+            Com CSS você transforma estrutura em design.
+          </p>
+          <footer class="card-footer">
+            <a routerLink="/sobre-css" class="btn btn-accent btn-sm">Aprender CSS →</a>
+          </footer>
+        </article>
+
+      </div>
+    </div>
+  </section>
+</main>
