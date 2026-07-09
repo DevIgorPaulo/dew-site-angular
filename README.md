@@ -4,6 +4,13 @@ Este projeto é uma versão componentizada e moderna do site **DevLearn**, migra
 
 Ele é voltado para a apresentação didática dos conceitos fundamentais de HTML e CSS de forma organizada e limpa.
 
+# Autores
+
+Andrei Luciano Dietrch;
+Brayan Godoy Schmitz;
+Igor Francisco Antunes Paulo;
+Kevin Licheski Antunes.
+
 ## Recursos do Projeto
 
 - **Cabeçalho & Rodapé Compartilhados**: Componentes reutilizáveis nas rotas.
