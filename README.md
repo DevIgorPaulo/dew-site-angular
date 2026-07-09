@@ -4,6 +4,13 @@ Este projeto é uma versão componentizada e moderna do site **DevLearn**, migra
 
 Ele é voltado para a apresentação didática dos conceitos fundamentais de HTML e CSS de forma organizada e limpa.
 
+# Autores
+
+Andrei Luciano Dietrch
+Brayan Godoy Schmitz
+Igor Francisco Antunes Paulo
+Kevin Licheski Antunes
+
 ## Recursos do Projeto
 
 - **Cabeçalho & Rodapé Compartilhados**: Componentes reutilizáveis nas rotas.
@@ -36,6 +43,6 @@ Certifique-se de que você tem o [Node.js](https://nodejs.org/) instalado. No te
 
 ## Estrutura de Pastas Principal
 
-- `src/app/` — Contém a lógica, templates e componentes principais (Cabecalho, Rodape, Home, SobreHtml e SobreCss).
+- `src/pages/` — Contém a lógica, templates e componentes principais (Cabecalho, Rodape, Home, SobreHtml e SobreCss).
 - `src/styles/` — Arquivos CSS originais organizados de forma limpa.
 - `public/` — Recursos públicos do projeto, como imagens e ícones.
