@@ -1,53 +1,41 @@
-# DevLearn — Site Educacional de HTML e CSS
+# DevLearn — Site Educacional (Versão Angular)
 
-Projeto acadêmico de página estática com design responsivo para apresentação de conceitos fundamentais de HTML e CSS.
+Este projeto é uma versão componentizada e moderna do site **DevLearn**, migrado de HTML estático para o framework **Angular 21**.
 
-## Descrição
+Ele é voltado para a apresentação didática dos conceitos fundamentais de HTML e CSS de forma organizada e limpa.
 
-O **DevLearn** é um mini-site didático desenvolvido para facilitar o aprendizado inicial de HTML e CSS. Ele apresenta:
+## Recursos do Projeto
 
-- uma página inicial com introdução ao tema;
-- conteúdo explicativo sobre HTML;
-- conteúdo explicativo sobre CSS;
-- navegação intuitiva e layout moderno.
+- **Cabeçalho & Rodapé Compartilhados**: Componentes reutilizáveis nas rotas.
+- **Navegação SPA**: Roteamento dinâmico e sem recarregamento de página.
+- **Visual Responsivo**: Mesma estética, estilos e imagens originais preservados.
 
-Este projeto é ideal para trabalhos de faculdade, portfólio de iniciantes ou demonstração de conhecimentos em front-end básico.
+## Tecnologias Utilizadas
 
-## Estrutura do repositório
+- **Angular 21** (Standalone Components)
+- **TypeScript**
+- **HTML5 & CSS3**
+- **Google Fonts** (`Syne` e `Space Mono`)
 
-- `Index.html` — página inicial com navegação e apresentação geral.
-- `SobreHtml.html` — conteúdo sobre HTML, tags essenciais e estrutura de documentos.
-- `SobreCss.html` — conteúdo sobre CSS, seletores, propriedades e estilo visual.
-- `styles.css` — folha de estilo responsável pelo design, layout e responsividade.
+## Como Executar
 
-## Tecnologias utilizadas
+Certifique-se de que você tem o [Node.js](https://nodejs.org/) instalado. No terminal do projeto, execute:
 
-- HTML5
-- CSS3
-- Google Fonts (`Syne`, `Space Mono`)
+1. **Instalar dependências**:
+   ```bash
+   npm install
+   ```
 
-## Como executar
+2. **Iniciar o servidor de desenvolvimento**:
+   ```bash
+   npm start
+   ```
 
-1. Clone ou copie o repositório para seu computador.
-2. Abra o arquivo `Index.html` em qualquer navegador moderno.
-3. Use o menu no cabeçalho para navegar entre as páginas.
+3. **Acessar no navegador**:
+   Abra o endereço [http://localhost:4200](http://localhost:4200).
 
-> Não é necessário instalar nada. O site é totalmente estático.
+## Estrutura de Pastas Principal
 
-## Diferenciais do projeto
-
-- layout com estética profissional e tipografia cuidada;
-- animações e estilo visual consistentes;
-- navegação clara entre seções de HTML e CSS;
-- estrutura simples e organizada, adequada para apresentação em sala de aula.
-
-## Possíveis melhorias
-
-- adicionar ícones e ilustrações para reforçar a parte didática;
-- incluir exemplos executáveis de código HTML e CSS;
-- adaptar o conteúdo para mobile com menu responsivo;
-- adicionar uma página de projetos ou portfólio.
-
-## Contato
-
-Caso queira adaptar o projeto para outra disciplina, apresentação ou portfólio, basta copiar os arquivos e personalizar o conteúdo.
+- `src/app/` — Contém a lógica, templates e componentes principais (Cabecalho, Rodape, Home, SobreHtml e SobreCss).
+- `src/styles/` — Arquivos CSS originais organizados de forma limpa.
+- `public/` — Recursos públicos do projeto, como imagens e ícones.
