@@ -1,7 +1,6 @@
 # DevLearn — Site Educacional (Versão Angular)
 
 Este projeto é uma versão componentizada e moderna do site **DevLearn**, migrado de HTML estático para o framework **Angular 21**.
-
 Ele é voltado para a apresentação didática dos conceitos fundamentais de HTML e CSS de forma organizada e limpa.
 
 # Autores
